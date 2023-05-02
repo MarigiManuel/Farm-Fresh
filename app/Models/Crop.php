@@ -17,7 +17,7 @@ class Crop extends Model
         'acrerange',
         'note',
     ];
-
+    
     public function user() {
         $this->belongsTo(User::class);
     }
